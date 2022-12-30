@@ -1,0 +1,15 @@
+current directory: /home/protons/demo-ci-dc/heroku-continuous-deployment/vendor/bundle/ruby/2.7.0/gems/bindex-0.5.0/ext/bindex
+/home/protons/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/protons/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20221230-58964-g495uw.rb extconf.rb
+creating Makefile
+
+current directory: /home/protons/demo-ci-dc/heroku-continuous-deployment/vendor/bundle/ruby/2.7.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/protons/demo-ci-dc/heroku-continuous-deployment/vendor/bundle/ruby/2.7.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/protons/demo-ci-dc/heroku-continuous-deployment/vendor/bundle/ruby/2.7.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20221230-58964-7ipf1b/bindex
